@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_Markdown_Addin", "Word_Markdown_Addin\Word_Markdown_Addin.csproj", "{384CA58A-2393-453B-8E73-0B7F7669C446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_Markdown_AddinWeb", "Word_Markdown_AddinWeb\Word_Markdown_AddinWeb.csproj", "{9B1539FD-131D-4AB9-BD9B-880A6F78E041}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{384CA58A-2393-453B-8E73-0B7F7669C446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384CA58A-2393-453B-8E73-0B7F7669C446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384CA58A-2393-453B-8E73-0B7F7669C446}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{384CA58A-2393-453B-8E73-0B7F7669C446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384CA58A-2393-453B-8E73-0B7F7669C446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384CA58A-2393-453B-8E73-0B7F7669C446}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9B1539FD-131D-4AB9-BD9B-880A6F78E041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1539FD-131D-4AB9-BD9B-880A6F78E041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1539FD-131D-4AB9-BD9B-880A6F78E041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1539FD-131D-4AB9-BD9B-880A6F78E041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7A6B70-BDC8-480B-913B-9220737ADD65}
+	EndGlobalSection
+EndGlobal
