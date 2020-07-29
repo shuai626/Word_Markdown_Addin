@@ -24,6 +24,11 @@
 
     <!-- To enable the offline use of Office UI Fabric Core, use: -->
     <!-- link rel="stylesheet" href="Content/fabric.min.css" -->
+    <!-- To enable syntax highlighting via highlight.js-->
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
     <!-- Office UI Fabric JS and it's components are no longer actively supported. Please see https://aka.ms/PnP-OfficeFabricReact for recommended Patterns and Practices -->
@@ -37,32 +42,14 @@
     </div>
     <div id="content-main">
         <div class="padding">
-            <p>Choose the buttons below to add boilerplate text to the document by using the Word JavaScript API.</p>
+            <p>Choose the buttons below to add Codeblocks to your document.</p>
             <br />
             <h3>Try it out</h3>
-            <button id="emerson">Add quote from Ralph Waldo Emerson</button>
-            <br /><br />
-            <button id="checkhov">Add quote from Anton Chekhov</button>
-            <br /><br />
-            <button id="proverb">Add Chinese proverb</button>
+            <button id="add">Create Codeblock</button>
+            <br />
         </div>
     </div>
     <br />
     <div id="supportedVersion" />
-
-    <!-- Component used for displaying notifications -->
-    <div class="MessageBanner" id="notification-popup">
-        <div class="MessageBanner-content">
-            <div class="MessageBanner-text">
-                <div class="MessageBanner-clipper">
-                    <div class="ms-font-m-plus ms-fontWeight-semibold" id="notification-header"></div>
-                    <div class="ms-font-m ms-fontWeight-semilight" id="notification-body"></div>
-                </div>
-            </div>
-            <button class="MessageBanner-expand" style="display:none"><i class="ms-Icon ms-Icon--chevronsDown"></i> </button>
-            <div class="MessageBanner-action"></div>
-        </div>
-        <button class="MessageBanner-close"> <i class="ms-Icon ms-Icon--ChromeClose"></i> </button>
-    </div>
 </body>
 </html>
